@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Celluloid | Sign up / Login</title>
+  <link rel="stylesheet" href="../css/reset.css"/>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/login.css">
+  <!-- <link rel="stylesheet" href="../css/columns.css"> -->
+  <!-- <link rel="stylesheet" href="../css/movies.css"> -->
+  <link rel="stylesheet" href="../css/960/960_12_col.css" />
+  <script src="https://use.fontawesome.com/60c9635032.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,500,550,600,700,900" rel="stylesheet"/>
+</head>
+<body>
+  <nav>
+    <a href="../index.html">
+      <div class="navbar-header ">
+        <span class="icon"><i class="fa fa-film" aria-hidden="true"></i></span>
+         Celluloid
+      </div>
+    </a>
+    <ul >
+      <a href="../index.html"><li>Home</li></a>
+      <a href="trailors.html"><li>Trailers</li></a>
+      <a href="hollywood.html"><li>Hollywood</li></a>
+      <a href="bollywood.html"><li>Bollywood</li></a>
+      <a href="tollywood.html"><li>Tollywood</li></a>
+      <a href="login.html"><li>Signup / login<li></a>
+      </ul>
+    </nav>
+
+    <div class="forms container_12">
+      <div class="login_page_header grid_12">
+        <p>Yor Are Just One Step Away For A Delightful Experience</p>
+      </div>
+    <div class="sign_up_form grid_5 omega">
+      <form action="" method="post">
+        <fieldset>
+          <legend>Sign Up:</legend><br>
+          <ul>
+            <li><input type="text" name="firstname" placeholder="First Name" required></li>
+            <li><input type="text" name="Lastname" placeholder="Last Name" required></li>
+            <li><input type="email" name="Email Address" placeholder="E-mail Address" required></li>
+            <li><input type="text" name="Username" placeholder="Username" required></li>
+            <li><input pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" type="password" name="Password" placeholder="Password" required></li>
+            <li><input pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" type="password" name="Confirm_Password" placeholder="Confirm Password" required></li>
+            <li><p>Password Should contain (UpperCase, LowerCase,
+                   Number/SpecialChar and min 8 Chars)</p></li>
+            <li><input class="submit" type="submit" value="Sign Up"></li>
+          </ul>
+        </fieldset>
+      </form>
+    </div>
+
+    <div class="login_form grid_5 omega">
+      <form action="" method="post">
+        <fieldset>
+          <legend>Login:</legend><br>
+          <ul>
+            <li><input type="text" name="Username" placeholder="Username" required></li>
+            <li><input type="password" name="Password" placeholder="Password" required></li>
+            <li><a href="#">Forget Password</a></li>
+            <li><input class="submit" type="submit" value="Sign In"></li>
+          </ul>
+        </fieldset>
+      </form>
+    </div>
+    </div>
+
+    <footer >
+      <div class="container_12">
+        <div class="text grid_8">
+        <p>copyrites owned by
+          <i class="fa fa-copyright" aria-hidden="true"></i> CELLULOID
+        </p>
+        </div>
+          <div class="links grid_4">
+            <span class="fb"><a href="https://facebook.com"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></span>
+            <span class="twitter"><a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+            <span class="gplus"><a href="https://plus.google.com/"><i class="fa fa-google-plus-official" aria-hidden="true"></i></a></span>
+
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>
